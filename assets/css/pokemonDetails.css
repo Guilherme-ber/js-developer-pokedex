@@ -1,0 +1,32 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #49d0b2;
+}
+
+.content .header .types {
+  display: flex;
+  gap: 10px;
+}
+
+.content .header .types div {
+  padding: 0.25rem 0.5rem;
+  filter: brightness(1.1);
+}
+
+.content .header {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.content .about {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+}
